@@ -7,7 +7,7 @@ import env from"dotenv";
 env.config()
 const app = express();
 const port = process.env.port || 3000;
-const API_URL = "http://localhost:4000";
+const API_URL = "https://blog-api-2-ej11.onrender.com";
 
 app.use(express.static("public"));
 
