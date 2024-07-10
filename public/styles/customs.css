@@ -584,3 +584,64 @@ small{
     font-size: 1rem;
   }
 }
+@media (max-width-441px){
+  .webtitle {
+    font-size: 25px;
+    letter-spacing: 1.5px;
+  }
+  .blog-title {
+    font-size: 45px;
+  }
+  .quote {
+    font-size: 35px;
+  }
+  .blog-container {
+    height: 350px;
+    font-size: 7px;
+  }
+  .post-content{
+    font-size:5px;
+  }
+  .imgcontainer img{
+    height:200px;
+  }
+  #newPostBtn {
+    font-size: 7px;
+  }
+  .infoblog {
+    width: 100%;
+    text-align: start;
+    margin-left: 0px;
+  }
+  .edit {
+    padding: 3px 10px;
+    font-size: 10px;
+  }
+  .delete {
+    padding: 3px 10px;
+    font-size: 10px;
+  }
+  .footer > div {
+    row-gap: 2px;
+  }
+  .footer-ul {
+    font-size: 10px;
+  }
+  .second-list {
+    margin-right: 30px;
+  }
+  .copyright {
+    font-size: 10px;
+  }
+  .footer-ul > li {
+    gap: 1px;
+  }
+  footer {
+    height: 180px;
+  }
+  .social-media a {
+    width: 1rem;
+    height: 1rem;
+    font-size: 1rem;
+  }
+}
