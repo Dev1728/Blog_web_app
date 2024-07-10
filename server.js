@@ -2,12 +2,13 @@ import express from "express";
 import bodyParser from "body-parser";
 import axios from "axios";
 import env from"dotenv";
-
+import path from 'path'
 
 env.config()
 const app = express();
-const port = process.env.port || 3000;
-const API_URL = "https://blog-api-2-ej11.onrender.com";
+const PORT = process.env.PORT || 3030;
+const API_URL = process.env.API_URL|| "https://blog-api-udmo.onrender.com";
+const __dirname=path.resolve('/')
 
 app.use(express.static("public"));
 
@@ -86,6 +87,6 @@ app.get("/api/posts/delete/:id", async (req, res) => {
   }
 });
 
-app.listen(port, () => {
-  console.log(`Backend server is running on http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Backend server is running on http://localhost:${PORT}`);
 });

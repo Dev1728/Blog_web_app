@@ -1,0 +1,76 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body {
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 10px;
+   
+  }
+  .heading {
+    color: rgb(212, 23, 23);
+    text-align: center;
+  }
+  form {
+    margin: 0 auto;
+    padding: 20px;
+    height: 500px;
+    width: 100%;
+    
+  }
+  form textarea {
+    border: 3px solid rgb(209, 176, 235);
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+  }
+  input {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    border: 3px solid #17C3B2;
+    border-radius: 20px;
+    height: 30px;
+    font-weight: 700;
+  }
+  button {
+    padding: 0.8em 1.5em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+  }
+  button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+  }
+  button:hover::before {
+    width: 105%;
+  }
+  button:hover {
+    color: #111;
+  }
