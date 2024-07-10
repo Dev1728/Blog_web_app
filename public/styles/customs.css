@@ -584,7 +584,7 @@ small{
     font-size: 1rem;
   }
 }
-@media (max-width-441px){
+@media (max-width-480px){
   .webtitle {
     font-size: 25px;
     letter-spacing: 1.5px;
@@ -625,13 +625,13 @@ small{
     font-size: 10px;
   }
   .footer > div {
-    row-gap: 2px;
+    row-gap: 0.5px;
   }
   .footer-ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 10px;
+    font-size: 5px;
   }
   .second-list {
     margin-right: 30px;
@@ -639,9 +639,7 @@ small{
   .copyright {
     font-size: 10px;
   }
-  .footer-ul > li {
-    gap: 1px;
-  }
+
   footer {
     height: 180px;
   }
