@@ -634,14 +634,14 @@ small{
     font-size: 5px;
   }
   .second-list {
-    margin-right: 30px;
+    margin-right: 5px;
   }
   .copyright {
     font-size: 10px;
   }
 
   footer {
-    height: 180px;
+    height: auto;
   }
   .social-media a {
     display: flex;
