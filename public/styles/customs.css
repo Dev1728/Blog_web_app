@@ -347,6 +347,7 @@ h2 > span {
   text-align: center;
 }
 .footer {
+  height: auto;
   background-color: #2a203a;
 }
 .footer-info {
