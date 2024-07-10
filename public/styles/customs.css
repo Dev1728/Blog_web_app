@@ -586,11 +586,11 @@ small{
 }
 @media (max-width-480px){
   .webtitle {
-    font-size: 25px;
-    letter-spacing: 1.5px;
+    font-size: 15px;
+    letter-spacing: 1px;
   }
   .blog-title {
-    font-size: 45px;
+    font-size: 20px;
   }
   .blogheading{
     width:auto;
