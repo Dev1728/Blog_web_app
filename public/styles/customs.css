@@ -592,6 +592,9 @@ small{
   .blog-title {
     font-size: 45px;
   }
+  .blogheading{
+    width:auto;
+  }
   .quote {
     font-size: 35px;
   }
@@ -625,6 +628,9 @@ small{
     row-gap: 2px;
   }
   .footer-ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     font-size: 10px;
   }
   .second-list {
@@ -640,6 +646,9 @@ small{
     height: 180px;
   }
   .social-media a {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 1rem;
     height: 1rem;
     font-size: 1rem;
