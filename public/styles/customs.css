@@ -651,4 +651,13 @@ small{
     height: 1rem;
     font-size: 1rem;
   }
+  .footer-info{
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 5px;
+    font-weight: 600;
+  }
+  footer{
+    width:100%;
+  }
 }
